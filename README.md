@@ -1,7 +1,8 @@
 # Folder2PDF
 
-Easily merge and convert multiple Word documents from a directory (including subfolders) into a single PDF file while preserving formatting, images, and content. This Python script simplifies bulk conversion and document organization. 
-\*(For now only DOC and DOCX, you can request more file formats if needed)
+Easily merge and convert multiple Word documents from a directory (including subfolders) into a single PDF file while preserving formatting, images, and content. This Python script simplifies bulk conversion and document organization.&#x20;
+
+\*For now only DOC and DOCX, you can request more file formats if needed
 
 ## Features
 
