@@ -1,11 +1,10 @@
-# Folder2PDF: Take the root of all your docs and make a single PDF for easier scraping
+# Folder2PDF
 
-Easily merge and convert multiple Word documents from a directory (including subfolders) into a single PDF file while preserving formatting, images, and content. This Python script simplifies bulk conversion and document organization.
-*(For now only DOC and DOCX, you can request more file formats if needed)
+Easily merge and convert multiple Word documents from a directory (including subfolders) into a single PDF file while preserving formatting, images, and content. This Python script simplifies bulk conversion and document organization. \*(For now only DOC and DOCX, you can request more file formats if needed)
 
 ## Features
 
-- **Root Folder Selection**: Prompt the user to select a folder containing `.doc` and `.docx` files on its branches.
+- **Folder Selection**: Prompt the user to select a folder containing `.doc` and `.docx` files.
 - **File Merging**: Combines all Word documents in the folder into a single Word file, ensuring page breaks between documents.
 - **PDF Conversion**: Converts the merged Word file into a single PDF file.
 - **User-Friendly Interface**: Utilizes `Tkinter` and `ctypes` to provide prompts and notifications.
@@ -22,12 +21,14 @@ Easily merge and convert multiple Word documents from a directory (including sub
 ## Installation
 
 1. Clone this repository:
+
    ```bash
-   git clone https://github.com/your-username/convert-docs-to-pdf.git
-   cd convert-docs-to-pdf
+   git clone https://github.com/Aloncifras/Folder2PDF.git
+   cd Folder2PDF
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install docx2pdf pywin32
    ```
@@ -37,6 +38,7 @@ Easily merge and convert multiple Word documents from a directory (including sub
 ## Usage
 
 1. Run the script:
+
    ```bash
    python Folder2PDF.py
    ```
@@ -48,16 +50,20 @@ Easily merge and convert multiple Word documents from a directory (including sub
 ## How It Works
 
 1. **Folder Selection**:
+
    - The script prompts the user to select a folder.
 
 2. **File Processing**:
+
    - It iterates through all `.doc` and `.docx` files in the folder.
    - Each document's content is appended to a single Word document with page breaks in between.
 
 3. **PDF Conversion**:
+
    - The merged Word document is converted to a PDF using `docx2pdf`.
 
 4. **Notifications**:
+
    - The user is notified when the process is complete, and the location of the resulting PDF is displayed.
 
 ## Debugging and Logs
