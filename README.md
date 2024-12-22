@@ -38,7 +38,7 @@ Easily merge and convert multiple Word documents from a directory (including sub
 
 1. Run the script:
    ```bash
-   python convert_docs_to_pdf.py
+   python Folder2PDF.py
    ```
 
 2. Follow the prompts to select a folder containing `.doc` and `.docx` files.
